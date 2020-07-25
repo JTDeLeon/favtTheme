@@ -8,7 +8,7 @@ get_header();
 
 	<div>
 		<h1>
-		Homepage
+		This is the Homepage
 		</h1>
 	</div>
 
