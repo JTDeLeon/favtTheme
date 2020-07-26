@@ -16,6 +16,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel = "stylesheet"
+   type = "text/css"
+   href = "/wp-content/themes/jonathan_underscore/custom-style.css" />
 
 	<?php wp_head(); ?>
 </head>
@@ -25,4 +28,5 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
 		Header
+
 	</header><!-- #masthead -->
