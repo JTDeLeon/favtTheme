@@ -18,7 +18,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel = "stylesheet"
    type = "text/css"
-   href = "/wp-content/themes/jonathan_underscore/custom-style.css" />
+   href = "/wp-content/themes/favtTheme/custom-style.css" />
 
 	<?php wp_head(); ?>
 </head>
