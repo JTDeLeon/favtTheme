@@ -23,6 +23,25 @@ get_header();
 			</div>
 			</div>
 
+			<div class="why-virtual">
+				<div class="why-virtual__title">
+					<h2 class="why-virtual__title--text">Current State of Covid 19!</h2>
+				</div>
+				<div class="why-virtual__text">
+					<p class="why-virtual__text--content">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis impedit exercitationem aperiam culpa repudiandae, architecto fugiat cumque dignissimos perferendis rerum eum aliquid assumenda consequatur aspernatur accusantium adipisci rem quasi!
+						
+						<br>
+						
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex provident asperiores quisquam voluptatum dolorem. Hic animi asperiores quibusdam eum recusandae, similique obcaecati dolore, porro saepe consequuntur, ad reprehenderit voluptatibus voluptas!
+						
+						<br>
+						
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, at qui quisquam sed maiores, rerum pariatur accusantium cum voluptates nihil ut aperiam nobis, suscipit dicta itaque obcaecati omnis culpa magnam.
+					</p>
+				</div>
+			</div>
+
 			<div class="about">
 				<div class="about__title">
 					<h2 class="about__title--text">Who we are?</h2>
@@ -71,8 +90,22 @@ get_header();
 				</div>
 			</div>
 
-			<div class="gallery">
-				gallery
+			<div class="certified">
+				<h1>We Help Background Check All Our Teachers</h1>
+				<p>By joining our service we will help provide you with more credibility by doing a background check on your behalf.</p>
+				<div class="images">
+					<!-- <img src="/wp-content/themes/favtTheme/images/certified.jpg" alt=""> -->
+					<img src="/wp-content/themes/favtTheme/images/checkbox.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="faq">
+				<h1>Frequently Asked Questions</h1>
+				<?php echo do_shortcode("[hrf_faqs]"); ?>
+			</div>
+			
+			<div class="form">
+				<?php echo do_shortcode("[multi-step-form id=1]"); ?>
 			</div>
 	</div>
 
