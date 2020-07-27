@@ -49,12 +49,12 @@ get_header();
 			</div>
 
 			<div class="certified">
-				<h1>Our Teachers are Certified</h1>
-				<p>We exclusively recruit teachers who have achieved licensure or certification.  A background check is part of our onboarding process.</p>
 				<div class="images">
 					<!-- <img src="/wp-content/themes/favtTheme/images/certified.jpg" alt=""> -->
 					<img src="/wp-content/themes/favtTheme/images/checkbox.jpg" alt="">
 				</div>
+				<h1>Our Teachers are Certified</h1>
+				<p>We exclusively recruit teachers who have achieved licensure or certification.<br/>A background check is part of our onboarding process.</p>
 			</div>
 
 			<div class="we-do">

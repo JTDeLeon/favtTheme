@@ -12,13 +12,19 @@ body {
 br {
   margin-bottom: 2%; }
 
+p {
+  font-size: 1.5rem; }
+
 .header {
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   position: relative;
   display: grid;
   grid-template-rows: max-content 1fr;
   grid-template-columns: 1fr max-content; }
+  @media only screen and (max-width: 768px) {
+    .header {
+      height: 100%; } }
   .header__logo {
     fill: white;
     width: 3rem;
@@ -52,6 +58,9 @@ br {
     margin-top: -5rem;
     width: 60%;
     text-align: center; }
+    @media only screen and (max-width: 768px) {
+      .header__title {
+        font-size: 3rem; } }
   .header__log {
     display: flex;
     align-items: center;
@@ -77,6 +86,9 @@ br {
   margin-bottom: 100px;
   border: 3px solid black;
   border-radius: 30px; }
+  @media only screen and (max-width: 768px) {
+    .why-virtual {
+      width: 90%; } }
   .why-virtual__title {
     padding-top: 3rem;
     text-align: center;
@@ -101,6 +113,9 @@ br {
   margin-top: -7rem;
   clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 100%);
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M1 3h1v1H1V3zm2-2h1v1H3V1z"%3E%3C/path%3E%3C/svg%3E'); }
+  @media only screen and (max-width: 768px) {
+    .about {
+      clip-path: none; } }
   .about__title {
     padding-top: 7rem;
     text-align: center;
@@ -133,7 +148,8 @@ br {
       width: 20%;
       margin: auto;
       padding: 20px;
-      border-radius: 30px; }
+      border-radius: 30px;
+      min-width: 350px; }
   .we-do__text {
     width: 80%;
     margin: 5% auto;
@@ -142,12 +158,13 @@ br {
     border-radius: 30px;
     max-width: 1024px; }
     .we-do__text .row {
-      display: flex; }
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
       .we-do__text .row__number {
         font-size: 30px;
         margin: auto 30px; }
     .we-do__text--content {
-      text-align: justify;
       margin: auto; }
 
 .certified {
@@ -157,7 +174,7 @@ br {
     width: 400px;
     margin: auto; }
     .certified .images img {
-      width: 100%;
+      width: 100px;
       margin: auto; }
 
 .faq {
@@ -186,9 +203,12 @@ br {
     background-color: #23c6cb;
     color: black !important;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
-    border-radius: 30px; }
+    border-radius: 30px;
+    width: 500px;
+    text-align: center; }
   .cta-area a:hover {
     color: white !important;
-    border: 2px solid white; }
+    border: 2px solid white;
+    background: #84c732; }
