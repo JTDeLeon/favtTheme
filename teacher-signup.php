@@ -98,7 +98,7 @@ get_header();
 			
 
 			<div id="cta-area" class="cta-area">
-				<a href="/form">Sign Up Now</a>
+				<a href="/teacher-form">Sign Up Now</a>
 			</div>
 
 			<div class="faq">
