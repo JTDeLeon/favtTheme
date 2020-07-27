@@ -186,8 +186,7 @@ p {
       width: 20%;
       margin: auto;
       padding: 20px;
-      min-width: 350px;
-      color: white; }
+      min-width: 350px; }
   .we-do__text {
     width: 80%;
     margin: 5% auto;
@@ -195,7 +194,7 @@ p {
     padding: 30px;
     border-radius: 30px;
     max-width: 1024px;
-    color: white; }
+    color: #232323; }
     .we-do__text .row {
       display: flex;
       flex-direction: column;
