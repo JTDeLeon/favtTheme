@@ -15,6 +15,45 @@ br {
 p {
   font-size: 1.5rem; }
 
+.homepage-select {
+  min-height: 950px;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("/wp-content/themes/favtTheme/images/teachingbg.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(90%); }
+  .homepage-select .centered-area {
+    color: white;
+    background: #0189c9;
+    padding: 100px;
+    text-align: center;
+    border-radius: 30px; }
+    .homepage-select .centered-area .two-col {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row; }
+      @media only screen and (max-width: 768px) {
+        .homepage-select .centered-area .two-col {
+          flex-direction: column; } }
+      .homepage-select .centered-area .two-col .join-btn {
+        margin: auto;
+        font-size: 2rem;
+        background: green;
+        color: white;
+        padding: 15px 50px;
+        border-radius: 30px;
+        text-decoration: none; }
+        @media only screen and (max-width: 768px) {
+          .homepage-select .centered-area .two-col .join-btn {
+            margin: 20px auto; } }
+      .homepage-select .centered-area .two-col .join-btn:hover {
+        background: #84c732; }
+
 .header {
   width: 100%;
   min-height: 80vh;

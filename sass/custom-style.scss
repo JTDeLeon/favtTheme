@@ -20,6 +20,58 @@ p {
    font-size: 1.5rem;
 }
 
+// Homepage Styles
+
+.homepage-select {
+   min-height: 950px;
+   background: blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   background-image: url("/wp-content/themes/favtTheme/images/teachingbg.jpg");
+   background-size: cover;
+   background-position: center;
+   filter: brightness(90%);
+
+   .centered-area {
+      color: white;
+      background: #0189c9;
+      padding: 100px;
+      text-align: center;
+      border-radius: 30px;
+
+      .two-col {
+         display: flex;
+         justify-content: space-evenly;
+         flex-direction: row;
+         @media only screen and (max-width: 768px) {
+            flex-direction: column;
+         }
+
+         .join-btn {
+            margin: auto;
+            font-size: 2rem;
+            background: green;
+            color: white;
+            padding: 15px 50px;
+            border-radius: 30px;
+            text-decoration: none;
+            @media only screen and (max-width: 768px) {
+               margin: 20px auto;
+            }
+         }
+
+         .join-btn:hover {
+            background: #84c732;
+         }
+      }
+   }
+}
+
+// End Homepage Styles
+
 .header {
    width: 100%;
    min-height: 80vh;
@@ -300,3 +352,4 @@ p {
       background: #84c732;
    }
 }
+
