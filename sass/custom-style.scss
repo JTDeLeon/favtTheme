@@ -245,12 +245,12 @@ p {
       
       &--text {
          color: #232323;
-         background: white;
+         background: #23c6cb;
          width: 20%;
          margin: auto;
          padding: 20px;
-         border-radius: 30px;
          min-width: 350px;
+         color: white;
 
          @media only screen and (max-width: 768px) {
             
@@ -261,10 +261,11 @@ p {
    &__text {
       width: 80%;
       margin: 5% auto;
-      background: white;
+      background: #23c6cb;
       padding: 30px;
       border-radius: 30px;
       max-width: 1024px;
+      color: white;
       
       .row {
           display: flex;
@@ -349,7 +350,7 @@ p {
    a:hover {
       color: white !important;
       border: 2px solid white;
-      background: #84c732;
+      background: orange;
    }
 }
 

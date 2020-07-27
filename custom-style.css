@@ -182,19 +182,20 @@ p {
     text-transform: uppercase; }
     .we-do__title--text {
       color: #232323;
-      background: white;
+      background: #23c6cb;
       width: 20%;
       margin: auto;
       padding: 20px;
-      border-radius: 30px;
-      min-width: 350px; }
+      min-width: 350px;
+      color: white; }
   .we-do__text {
     width: 80%;
     margin: 5% auto;
-    background: white;
+    background: #23c6cb;
     padding: 30px;
     border-radius: 30px;
-    max-width: 1024px; }
+    max-width: 1024px;
+    color: white; }
     .we-do__text .row {
       display: flex;
       flex-direction: column;
@@ -249,4 +250,4 @@ p {
   .cta-area a:hover {
     color: white !important;
     border: 2px solid white;
-    background: #84c732; }
+    background: orange; }
