@@ -12,7 +12,7 @@ get_header();
 			<p>Join Now For Free!</p>
 			<div class="two-col">
 				<a class="join-btn" href="#">Students</a>
-				<a class="join-btn" href="/sign-up">Teachers</a>
+				<a class="join-btn" href="/teacher-sign-up">Teachers</a>
 			</div>
 
 		</div>
