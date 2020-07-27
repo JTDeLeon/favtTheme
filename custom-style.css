@@ -24,6 +24,11 @@ br {
     width: 3rem;
     padding: 1rem;
     cursor: pointer; }
+  .header .logo-text {
+    color: white;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 600; }
   .header__bg {
     width: 100%;
     height: 100%;
@@ -44,7 +49,9 @@ br {
     text-transform: uppercase;
     font-size: 4rem;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-    margin-top: -5rem; }
+    margin-top: -5rem;
+    width: 60%;
+    text-align: center; }
   .header__log {
     display: flex;
     align-items: center;
@@ -58,17 +65,20 @@ br {
       margin-right: .5rem;
       filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5)); }
     .header__log--text {
-      text-transform: capitalize; }
+      text-transform: capitalize;
+      text-decoration: none;
+      color: white !important; }
 
 .why-virtual {
   width: 50%;
-  height: 55vh;
-  background: beige;
+  height: 100%;
+  background: #ffff009c;
   margin: auto;
   margin-bottom: 100px;
-  border: 3px solid grey; }
+  border: 3px solid black;
+  border-radius: 30px; }
   .why-virtual__title {
-    padding-top: 5rem;
+    padding-top: 3rem;
     text-align: center;
     text-transform: uppercase; }
     .why-virtual__title--text {
@@ -87,7 +97,7 @@ br {
 
 .about {
   width: 100%;
-  height: 60vh;
+  height: 100%;
   margin-top: -7rem;
   clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 100%);
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M1 3h1v1H1V3zm2-2h1v1H3V1z"%3E%3C/path%3E%3C/svg%3E'); }
@@ -99,22 +109,38 @@ br {
       color: #232323; }
   .about__text {
     width: 80%;
-    margin: 5% auto; }
+    margin: 3% auto;
+    padding-bottom: 50px;
+    max-width: 1024px; }
     .about__text--content {
       text-align: justify; }
 
 .we-do {
   width: 100%;
-  height: 60vh; }
+  height: 100%;
+  padding: 10px;
+  background-image: url("/wp-content/themes/favtTheme/images/kidsbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
   .we-do__title {
     padding-top: 7rem;
     text-align: center;
     text-transform: uppercase; }
     .we-do__title--text {
-      color: #232323; }
+      color: #232323;
+      background: white;
+      width: 20%;
+      margin: auto;
+      padding: 20px;
+      border-radius: 30px; }
   .we-do__text {
     width: 80%;
-    margin: 5% auto; }
+    margin: 5% auto;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 1024px; }
     .we-do__text .row {
       display: flex; }
       .we-do__text .row__number {
@@ -125,8 +151,7 @@ br {
       margin: auto; }
 
 .certified {
-  text-align: center;
-  margin: 200px 0; }
+  text-align: center; }
   .certified .images {
     display: flex;
     width: 400px;
@@ -136,12 +161,34 @@ br {
       margin: auto; }
 
 .faq {
-  width: 800px;
+  max-width: 1024px;
   margin: auto; }
   .faq h1 {
     text-align: center; }
 
 .form {
-  width: 1024px;
+  max-width: 1024px;
+  margin: auto; }
+
+.cta-area {
+  width: 100%;
+  height: 300px;
+  background-image: url("/wp-content/themes/favtTheme/images/kidsbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
   margin: auto;
-  text-align: center; }
+  align-items: center;
+  justify-content: center; }
+  .cta-area a {
+    padding: 30px;
+    background-color: #23c6cb;
+    color: black !important;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 30px; }
+  .cta-area a:hover {
+    color: white !important;
+    border: 2px solid white; }
