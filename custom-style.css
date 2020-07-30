@@ -197,7 +197,8 @@ p {
     padding: 30px;
     border-radius: 30px;
     max-width: 1024px;
-    color: #232323; }
+    color: #232323;
+    margin-bottom: 0; }
     .we-do__text .row {
       display: flex;
       flex-direction: column;
@@ -241,7 +242,7 @@ p {
   justify-content: center; }
   .cta-area a {
     padding: 30px;
-    background-color: #08f26e;
+    background-color: green;
     color: white !important;
     text-decoration: none;
     font-size: 40px;

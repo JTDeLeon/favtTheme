@@ -270,6 +270,7 @@ p {
       border-radius: 30px;
       max-width: 1024px;
       color: #232323;
+      margin-bottom: 0;
       
       .row {
           display: flex;
@@ -342,7 +343,7 @@ p {
    justify-content: center;
    a {
       padding: 30px;
-      background-color: #08f26e;
+      background-color: green;
       color: white !important;
       text-decoration: none;
       font-size: 40px;
