@@ -59,7 +59,7 @@ get_header();
 
 			<div class="we-do">
 				<div class="we-do__title">
-					<h1 class="we-do__title--text">A Simple Process Results In A Powerful Impact</h1>
+					<h1 class="we-do__title--text">A Simple Process Results In A Powerful Impact In Students Lives</h1>
 				</div>
 				<div class="we-do__text">
 					<div class="row">
