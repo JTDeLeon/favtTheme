@@ -243,8 +243,9 @@ p {
   justify-content: center; }
   .cta-area a {
     padding: 30px;
-    background-color: green;
     color: white !important;
+    border: 2px solid white;
+    background: orange;
     text-decoration: none;
     font-size: 40px;
     font-weight: 600;
@@ -252,6 +253,5 @@ p {
     width: 500px;
     text-align: center; }
   .cta-area a:hover {
-    color: white !important;
-    border: 2px solid white;
-    background: orange; }
+    background-color: green;
+    color: white !important; }

@@ -344,8 +344,9 @@ p {
    justify-content: center;
    a {
       padding: 30px;
-      background-color: green;
       color: white !important;
+      border: 2px solid white;
+      background: orange;
       text-decoration: none;
       font-size: 40px;
       font-weight: 600;
@@ -354,9 +355,8 @@ p {
       text-align: center;
    }
    a:hover {
+      background-color: green;
       color: white !important;
-      border: 2px solid white;
-      background: orange;
    }
 }
 
