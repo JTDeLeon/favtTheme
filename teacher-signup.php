@@ -43,7 +43,7 @@ get_header();
 				</div>
 				<div class="about__text">
 					<p class="about__text--content">
-					We are a team of resourcefeul people who are determined to help students and families source the assistance they need to continue their education momentum, and accelerate learning. We locate students nationwide who need virtual instruction, and recruit the most qualified certified educators to help them. In addition, we help educators ease the transition between classroom and virtual instruction to connect authentically with learners.
+					We are a team determined to help students and families source the assistance they need to continue their education momentum, and accelerate learning. We locate students nationwide who need virtual instruction, and recruit the most qualified certified educators to help them. In addition, we help educators ease the transition between classroom and virtual instruction to connect authentically with learners.
 					</p>
 				</div>
 			</div>
@@ -59,7 +59,7 @@ get_header();
 
 			<div class="we-do">
 				<div class="we-do__title">
-					<h1 class="we-do__title--text">Sign-Up to Help</h1>
+					<h1 class="we-do__title--text">A Simple Process Results In A Powerful Impact</h1>
 				</div>
 				<div class="we-do__text">
 					<div class="row">
