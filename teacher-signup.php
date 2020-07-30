@@ -63,31 +63,38 @@ get_header();
 				</div>
 				<div class="we-do__text">
 					<div class="row">
-						<p class="row__number">1</p>
+						<p class="row__number">Step 1.</p>
 						<div class="we-do__text--content">
 							<h2>You sign-up to help students, and create an educator profile</h2>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis impedit exercitationem aperiam culpa repudiandae, architecto fugiat cumque dignissimos perferendis rerum eum aliquid assumenda consequatur aspernatur accusantium adipisci rem quasi!</p>
+							<p>Introduce yourself to students and families. Your profile should highlight your strengths in education, and should exhibit your passion for teaching. Upload a profile profile picture to help your students feel connected and familiar with you.</p>
 						</div>
 					</div>
 					<div class="row">
-						<p class="row__number">2</p>
+						<p class="row__number">Step 2.</p>
 						<div class="we-do__text--content">
 							<h2>Your profile is matched to student(s) who are requesting instruction</h2>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis impedit exercitationem aperiam culpa repudiandae, architecto fugiat cumque dignissimos perferendis rerum eum aliquid assumenda consequatur aspernatur accusantium adipisci rem quasi!</p>
+							<p>Your core subjects and availability are aligned with student profiles who requested instruction, and your information is provided to the student or parent of the student. </p>
 						</div>
 					</div>
 					<div class="row">
-						<p class="row__number">3</p>
+						<p class="row__number">Step 3.</p>
 						<div class="we-do__text--content">
-							<h2>You instruct</h2>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis impedit exercitationem aperiam culpa repudiandae, architecto fugiat cumque dignissimos perferendis rerum eum aliquid assumenda consequatur aspernatur accusantium adipisci rem quasi!</p>
+							<h2>Introduce Yourself!</h2>
+							<p>A member of findavirtualteacher.com will coordinate a convenient meeting timefor you to meet your student virtually</p>
 						</div>
 					</div>
 					<div class="row">
-						<p class="row__number">4</p>
+						<p class="row__number">Step 4.</p>
 						<div class="we-do__text--content">
-							<h2>You receive payment from your student(s)</h2>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis impedit exercitationem aperiam culpa repudiandae, architecto fugiat cumque dignissimos perferendis rerum eum aliquid assumenda consequatur aspernatur accusantium adipisci rem quasi!</p>
+							<h2>Educate & Instruct</h2>
+							<p>You and your student get into the “flow” of regular, consistent instruction</p>
+						</div>
+					</div>
+					<div class="row">
+						<p class="row__number">Step 5.</p>
+						<div class="we-do__text--content">
+							<h2>Every Friday is Payday Friday</h2>
+							<p>You receive payment for the instruction you provide that week.</p>
 						</div>
 					</div>
 				</div>
