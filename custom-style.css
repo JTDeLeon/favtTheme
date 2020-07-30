@@ -138,7 +138,8 @@ p {
       color: #232323; }
   .why-virtual__text {
     width: 80%;
-    margin: 5% auto; }
+    margin: 5% auto;
+    margin-top: 3%; }
     .why-virtual__text .row {
       display: flex; }
       .why-virtual__text .row__number {
