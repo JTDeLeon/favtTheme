@@ -26,7 +26,7 @@ get_header();
 
 			<div class="why-virtual">
 				<div class="why-virtual__title">
-					<h1 class="why-virtual__title--text">We Are In This Together (Covid 19)</h1>
+					<h1 class="why-virtual__title--text">We Are In This Together</h1>
 				</div>
 				<div class="why-virtual__text">
 					<p class="why-virtual__text--content">
