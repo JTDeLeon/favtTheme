@@ -80,7 +80,7 @@ get_header();
 						<p class="row__number">Step 3.</p>
 						<div class="we-do__text--content">
 							<h2>Introduce Yourself!</h2>
-							<p>A member of findavirtualteacher.com will coordinate a convenient meeting timefor you to meet your student virtually</p>
+							<p>A member of findavirtualteacher.com will coordinate a convenient meeting time for you to meet your student virtually</p>
 						</div>
 					</div>
 					<div class="row">
