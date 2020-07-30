@@ -33,7 +33,7 @@ get_header();
 					At the height of uncertainty in the world today, families are flailing, and worried about their children falling behind the education “curve”. Although many considered tutoring and virtual education supplementary, the reality is that virtual education is likely the only option this upcoming school year. Zoom and Skype are expected to be essential resources in children’s lives and certified teachers are committed to optimizing the virtual learning experience for students.
 					</p>
 					<br>
-					<p class="why-virtual__text--content"><b>As a certified educator and teacher, you have the power to promote and provide education.<b> You have the freedom and flexibility to choose the path of which you educate others, and the knowledge and experience to do so. Families need you. <br><br><b>Register today and start on your virtual education path.</b></p>
+					<p class="why-virtual__text--content"><b>As a certified educator and teacher, you have the power to promote and provide education.</b> You have the freedom and flexibility to choose the path of which you educate others, and the knowledge and experience to do so. Families need you. <br><br><b>Register today and start on your virtual education path.</b></p>
 				</div>
 			</div>
 
